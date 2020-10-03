@@ -7,7 +7,7 @@ use Jikan\Helper\JString;
 use Jikan\Helper\Parser;
 use Jikan\Model\Forum\ForumPost;
 use Symfony\Component\DomCrawler\Crawler;
-use function GuzzleHttp\Psr7\parse_query;
+use function GuzzleHttp6\Psr7\parse_query;
 
 /**
  * Class ForumPostParser

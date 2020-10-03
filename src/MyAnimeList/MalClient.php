@@ -11,7 +11,7 @@
 
 namespace Jikan\MyAnimeList;
 
-use GuzzleHttp\Client as GuzzleClient;
+use GuzzleHttp6\Client as GuzzleClient;
 use Jikan\Exception\BadResponseException;
 use Jikan\Exception\ParserException;
 use Jikan\Goutte\GoutteWrapper;
