@@ -25,7 +25,7 @@
         }
     },
     "require": {
-        "fabpot/goutte": "^3.2",
+        "fabpot/goutte": "dev-master",
         "php": "^7.1"
     },
     "require-dev": {
@@ -49,6 +49,12 @@
             "composer config repositories.fixtures --unset"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:aniplaylist/Goutte.git"
+        }
+    ],
     "config": {
         "sort-packages": true
     }
