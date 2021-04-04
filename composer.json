@@ -51,6 +51,7 @@
     },
     "repositories": [
         {
+            "name": "fabpot/goutte",
             "type": "vcs",
             "url": "git@github.com:aniplaylist/Goutte.git"
         }
