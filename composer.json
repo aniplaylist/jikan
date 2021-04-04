@@ -25,7 +25,7 @@
         }
     },
     "require": {
-        "fabpot/goutte": "dev-master",
+        "fabpot/goutte": "^3.2",
         "php": "^7.1"
     },
     "require-dev": {
